@@ -1,0 +1,41 @@
+Buildfile: /home/rhli/Projects/previous/hadoop-20-master/apiExample/build.xml
+
+init:
+
+compile:
+    [javac] /home/rhli/Projects/previous/hadoop-20-master/apiExample/build.xml:20: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+    [javac] Compiling 1 source file to /home/rhli/Projects/previous/hadoop-20-master/apiExample/build
+    [javac] /home/rhli/Projects/previous/hadoop-20-master/apiExample/src/example.java:20: error: class Main is public, should be declared in a file named Main.java
+    [javac] public class Main{
+    [javac]        ^
+    [javac] /home/rhli/Projects/previous/hadoop-20-master/build/classes/org/apache/hadoop/hdfs/protocol/DatanodeInfo.class: warning: Cannot find annotation method 'value()' in type 'ThriftField': class file for com.facebook.swift.codec.ThriftField not found
+    [javac] /home/rhli/Projects/previous/hadoop-20-master/build/classes/org/apache/hadoop/hdfs/protocol/DatanodeInfo.class: warning: Cannot find annotation method 'value()' in type 'ThriftField'
+    [javac] /home/rhli/Projects/previous/hadoop-20-master/build/classes/org/apache/hadoop/hdfs/protocol/DatanodeInfo.class: warning: Cannot find annotation method 'value()' in type 'ThriftField'
+    [javac] /home/rhli/Projects/previous/hadoop-20-master/build/classes/org/apache/hadoop/hdfs/protocol/DatanodeInfo.class: warning: Cannot find annotation method 'value()' in type 'ThriftField'
+    [javac] /home/rhli/Projects/previous/hadoop-20-master/build/classes/org/apache/hadoop/hdfs/protocol/DatanodeInfo.class: warning: Cannot find annotation method 'value()' in type 'ThriftField'
+    [javac] /home/rhli/Projects/previous/hadoop-20-master/build/classes/org/apache/hadoop/hdfs/protocol/DatanodeInfo.class: warning: Cannot find annotation method 'value()' in type 'ThriftField'
+    [javac] /home/rhli/Projects/previous/hadoop-20-master/build/classes/org/apache/hadoop/hdfs/protocol/DatanodeInfo.class: warning: Cannot find annotation method 'value()' in type 'ThriftField'
+    [javac] /home/rhli/Projects/previous/hadoop-20-master/build/classes/org/apache/hadoop/hdfs/protocol/DatanodeInfo.class: warning: Cannot find annotation method 'value()' in type 'ThriftField'
+    [javac] /home/rhli/Projects/previous/hadoop-20-master/build/classes/org/apache/hadoop/hdfs/protocol/DatanodeInfo.class: warning: Cannot find annotation method 'value()' in type 'ThriftField'
+    [javac] /home/rhli/Projects/previous/hadoop-20-master/build/classes/org/apache/hadoop/hdfs/protocol/DatanodeInfo.class: warning: Cannot find annotation method 'value()' in type 'ThriftField'
+    [javac] /home/rhli/Projects/previous/hadoop-20-master/build/classes/org/apache/hadoop/hdfs/protocol/DatanodeInfo.class: warning: Cannot find annotation method 'value()' in type 'ThriftField'
+    [javac] /home/rhli/Projects/previous/hadoop-20-master/build/classes/org/apache/hadoop/hdfs/protocol/DatanodeInfo.class: warning: Cannot find annotation method 'value()' in type 'ThriftField'
+    [javac] /home/rhli/Projects/previous/hadoop-20-master/build/classes/org/apache/hadoop/hdfs/protocol/DatanodeInfo.class: warning: Cannot find annotation method 'value()' in type 'ThriftField'
+    [javac] /home/rhli/Projects/previous/hadoop-20-master/build/classes/org/apache/hadoop/hdfs/protocol/DatanodeInfo.class: warning: Cannot find annotation method 'value()' in type 'ThriftField'
+    [javac] /home/rhli/Projects/previous/hadoop-20-master/build/classes/org/apache/hadoop/hdfs/protocol/DatanodeInfo.class: warning: Cannot find annotation method 'value()' in type 'ThriftField'
+    [javac] /home/rhli/Projects/previous/hadoop-20-master/build/classes/org/apache/hadoop/hdfs/protocol/DatanodeInfo.class: warning: Cannot find annotation method 'value()' in type 'ThriftField'
+    [javac] /home/rhli/Projects/previous/hadoop-20-master/build/classes/org/apache/hadoop/hdfs/protocol/DatanodeInfo.class: warning: Cannot find annotation method 'value()' in type 'ThriftField'
+    [javac] /home/rhli/Projects/previous/hadoop-20-master/build/classes/org/apache/hadoop/hdfs/protocol/DatanodeInfo.class: warning: Cannot find annotation method 'value()' in type 'ThriftField'
+    [javac] /home/rhli/Projects/previous/hadoop-20-master/build/classes/org/apache/hadoop/hdfs/protocol/DatanodeInfo.class: warning: Cannot find annotation method 'value()' in type 'ThriftField'
+    [javac] /home/rhli/Projects/previous/hadoop-20-master/build/classes/org/apache/hadoop/hdfs/protocol/DatanodeInfo.class: warning: Cannot find annotation method 'value()' in type 'ThriftField'
+    [javac] /home/rhli/Projects/previous/hadoop-20-master/build/classes/org/apache/hadoop/hdfs/protocol/DatanodeInfo.class: warning: Cannot find annotation method 'value()' in type 'ThriftField'
+    [javac] /home/rhli/Projects/previous/hadoop-20-master/build/classes/org/apache/hadoop/hdfs/protocol/DatanodeInfo.class: warning: Cannot find annotation method 'value()' in type 'ThriftField'
+    [javac] /home/rhli/Projects/previous/hadoop-20-master/build/classes/org/apache/hadoop/hdfs/protocol/DatanodeInfo.class: warning: Cannot find annotation method 'name()' in type 'ThriftField'
+    [javac] /home/rhli/Projects/previous/hadoop-20-master/build/classes/org/apache/hadoop/hdfs/protocol/DatanodeInfo.class: warning: Cannot find annotation method 'value()' in type 'ThriftField'
+    [javac] 1 error
+    [javac] 24 warnings
+
+BUILD FAILED
+/home/rhli/Projects/previous/hadoop-20-master/apiExample/build.xml:20: Compile failed; see the compiler error output for details.
+
+Total time: 1 second

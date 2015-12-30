@@ -1,0 +1,34 @@
+<systemSetting>
+    <attribute> 
+        <title>nodeNum</title>
+        <value>20</value>
+    </attribute>
+    <attribute> 
+        <title>erasureCodeN</title>
+        <value>8</value>
+    </attribute>
+    <attribute> 
+        <title>erasureCodeK</title>
+        <value>4</value>
+    </attribute>
+    <attribute> 
+        <title>switchBandwidth</title>
+        <value>100</value>
+    </attribute>
+    <attribute> 
+        <title>blockSize</title>
+        <value>128</value>
+    </attribute>
+    <attribute> 
+        <title>replicaNum</title>
+        <value>1</value>
+    </attribute>
+    <attribute> 
+        <title>mapSlotNum</title>
+        <value>2</value>
+    </attribute>
+    <attribute> 
+        <title>reduceSlotNum</title>
+        <value>1</value>
+    </attribute>
+</systemSetting>

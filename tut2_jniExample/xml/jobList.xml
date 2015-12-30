@@ -1,0 +1,28 @@
+<jobList>
+    <job>
+        <attribute>
+            <title>blockNum</title>
+            <value>100</value>
+        </attribute>
+        <attribute>
+            <title>reduceNum</title>
+            <value>10</value>
+        </attribute>
+        <attribute>
+            <title>mapTime</title>
+            <value>20</value>
+        </attribute>
+        <attribute>
+            <title>reduceTime</title>
+            <value>30</value>
+        </attribute>
+        <attribute>
+            <title>intermediatePercentage</title>
+            <value>0.3</value>
+        </attribute>
+        <attribute>
+            <title>startTime</title>
+            <value>0</value>
+        </attribute>
+    </job>
+</jobList>
