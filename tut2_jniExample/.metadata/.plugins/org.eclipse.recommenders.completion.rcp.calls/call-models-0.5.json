@@ -1,0 +1,7 @@
+{
+  "/usr/lib/jvm/java-7-oracle/jre/lib/rt.jar": {
+    "location": "/usr/lib/jvm/java-7-oracle/jre/lib/rt.jar",
+    "status": "UNRESOLVED",
+    "error": "No call model found for \u0027/usr/lib/jvm/java-7-oracle/jre/lib/rt.jar\u0027. Neither fingerprint \u0027d12957e93c34280be2983be0ecf875f38a5a3232\u0027 nor symbolic name \u0027jre\u0027 are known."
+  }
+}
