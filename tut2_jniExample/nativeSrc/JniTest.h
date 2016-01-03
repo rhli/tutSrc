@@ -23,6 +23,38 @@ JNIEXPORT void JNICALL Java_JniTest_sayHello
 JNIEXPORT void JNICALL Java_JniTest_passArg
   (JNIEnv *, jobject, jint);
 
+/*
+ * Class:     JniTest
+ * Method:    retValue
+ * Signature: ()I
+ */
+JNIEXPORT jint JNICALL Java_JniTest_retValue
+  (JNIEnv *, jobject);
+
+/*
+ * Class:     JniTest
+ * Method:    printArr
+ * Signature: ()I
+ */
+JNIEXPORT void JNICALL Java_JniTest_printArr
+  (JNIEnv *, jobject, jintArray);
+
+/*
+ * Class:     JniTest
+ * Method:    returnArr
+ * Signature: ()I
+ */
+JNIEXPORT jintArray JNICALL Java_JniTest_returnArr
+  (JNIEnv *, jobject, jint);
+
+/*
+ * Class:     JniTest
+ * Method:    square
+ * Signature: ()I
+ */
+JNIEXPORT void JNICALL Java_JniTest_square
+  (JNIEnv *, jobject, jobjectArray, jobjectArray);
+
 #ifdef __cplusplus
 }
 #endif

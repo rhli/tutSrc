@@ -14,8 +14,12 @@
     <target name="clean"> 
         <delete dir="${build.dir}"/> 
     </target> 
+
+    <target name="jni"> 
+      <exec executable="make" failonerror="true"/> 
+    </target>
         
-    <target name="compile"> 
+    <target name="compile" depends="jni"> 
         <mkdir dir="${class.dir}"/> 
         <javac srcdir="${src.dir}" destdir="${class.dir}" classpathref="classpath"/> 
     </target>
